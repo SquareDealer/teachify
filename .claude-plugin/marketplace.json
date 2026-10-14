@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "squaredealer",
+  "owner": {
+    "name": "Ivan Nikiforov",
+    "url": "https://github.com/SquareDealer"
+  },
+  "description": "SquareDealer's Claude Code plugins.",
+  "plugins": [
+    {
+      "name": "teachify",
+      "source": "./",
+      "description": "AI-tutor course for backend and ML: diagnostic, roadmap, and lessons built from your own materials, with theory, practice, bug hunts and spaced reviews.",
+      "category": "learning",
+      "keywords": ["learning", "tutor", "ml", "backend", "education"]
+    }
+  ]
+}

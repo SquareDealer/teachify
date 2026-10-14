@@ -1,0 +1,13 @@
+{
+  "name": "teachify",
+  "version": "1.0.0",
+  "description": "AI-tutor course for backend and ML: diagnostic, roadmap, and lessons built from your own materials, with theory, practice, bug hunts and spaced reviews.",
+  "author": {
+    "name": "Ivan Nikiforov",
+    "url": "https://github.com/SquareDealer"
+  },
+  "homepage": "https://github.com/SquareDealer/teachify",
+  "repository": "https://github.com/SquareDealer/teachify",
+  "license": "MIT",
+  "keywords": ["learning", "tutor", "ml", "backend", "spaced-repetition", "education"]
+}

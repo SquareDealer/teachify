@@ -1,6 +1,8 @@
 ---
 name: teachify
 description: AI-tutor course for backend or ML. /teachify init = diagnostic + roadmap; /teachify path/roadmap.md = next lesson (theory + practice) from your materials; also learn and review.
+disable-model-invocation: true
+argument-hint: "init [topic] | path/roadmap.md | learn <concept> | review"
 ---
 
 # teachify
@@ -20,6 +22,8 @@ Theory block adapted from Matt Pocock's `teach` skill (github.com/mattpocock/ski
 | `/teachify learn <concept>` | [Standalone concept](#flow-learn-concept): same lesson pipeline, no roadmap |
 | `/teachify review` | [Review](#flow-review): spaced, interleaved quiz only |
 | `/teachify` with no args | If cwd contains `roadmap.md`, run a roadmap session on it; otherwise ask which flow. |
+
+Installed as a plugin, the command is namespaced: `/teachify:teachify init`, `/teachify:teachify path/roadmap.md`, etc. The arguments are the same.
 
 ## The tutor contract (applies in every flow)
 

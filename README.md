@@ -1,6 +1,6 @@
 # teachify
 
-A Claude skill that turns Claude into a guard-railed tutor for learning **backend** and **ML**. It runs a full course: a diagnostic, a roadmap, and lessons built from *your* materials, each split into theory and practice.
+A Claude Code plugin (and standalone skill) that turns Claude into a guard-railed tutor for learning **backend** and **ML**. It runs a full course: a diagnostic, a roadmap, and lessons built from *your* materials, each split into theory and practice.
 
 The design follows what research says about learning with AI. Unrestricted AI help hurts retention; a tutor that withholds answers, gives hints step by step and works from a source of truth helps (Bastani et al., PNAS 2025; Kestin et al., 2025; Anthropic, 2026).
 
@@ -39,17 +39,45 @@ Dialogue stays in the main thread (diagnostic, hint ladder, quizzes, teach-back)
 
 ## Install
 
-**Claude Code**: copy the skill folder into your skills directory:
+### Claude Code plugin (recommended)
+
+```
+/plugin install teachify --marketplace SquareDealer/teachify
+```
+
+On older Claude Code versions, add the marketplace first:
+
+```
+/plugin marketplace add SquareDealer/teachify
+/plugin install teachify@squaredealer
+```
+
+Plugin skills are namespaced, so the command is `/teachify:teachify`:
+
+```
+/teachify:teachify init machine learning
+/teachify:teachify ./ml-course/roadmap.md
+/teachify:teachify learn self-attention
+/teachify:teachify review
+```
+
+Update with `/plugin marketplace update squaredealer`.
+
+### Manual (plain `/teachify` command)
 
 ```bash
 git clone https://github.com/SquareDealer/teachify.git
 mkdir -p ~/.claude/skills
-cp -r teachify/teachify ~/.claude/skills/
+cp -r teachify/skills/teachify ~/.claude/skills/
 ```
 
-Or per project: `.claude/skills/teachify/` in the repo.
+### Claude apps
 
-**Claude apps**: upload `teachify/SKILL.md` as a custom skill.
+Upload `skills/teachify/SKILL.md` as a custom skill.
+
+### For maintainers
+
+`version` is pinned in `.claude-plugin/plugin.json`, so bump it on every release or installed copies won't update. Check the manifests with `claude plugin validate .`
 
 ## Course workspace
 
