@@ -108,18 +108,12 @@ Claude asks why you're learning, runs a 20–30 minute adaptive diagnostic, asks
 
 ## How a lesson works
 
-```mermaid
-flowchart TB
-    subgraph TH["Theory"]
-        direction LR
-        M["📄 Your material<br/>chapter · docs · lecture"] --> T["📖 Lesson<br/>short HTML + quiz"] --> N["✍️ Notes from memory<br/>checked against source"]
-    end
-    subgraph PR["Practice"]
-        direction LR
-        P["🛠 Main task<br/>hint ladder"] --> B["🐞 Bug hunt<br/>in your own code"] --> E["🗣 Teach-back<br/>to a picky junior"]
-    end
-    TH --> PR --> R["🔁 Spaced review<br/>+1 · +3 · +7 days"]
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/lesson-loop-dark.svg">
+    <img alt="Lesson loop: your material, lesson, notes from memory, then main task, bug hunt, teach-back, then spaced review" src=".github/assets/lesson-loop-light.svg" width="100%">
+  </picture>
+</p>
 
 1. **Your material is the source of truth.** Drop in a chapter, a docs page or a lecture. It's converted to Markdown, and every claim in the lesson cites it. Nothing is taught from the model's memory alone.
 2. **Theory** is a short, printable HTML lesson with an inline quiz. Then you close it and write `notes.md` **from memory**. A separate agent checks your notes against the source and lists what's wrong or missing. It never rewrites them for you.
@@ -147,16 +141,12 @@ The rest of the contract: you attempt or guess first, debugging stays in your ha
 
 Anything that needs a conversation with you stays in the main thread. Heavy reading, generation and independent checks go to subagents, which keeps the tutor's context clean and stops it from grading its own work.
 
-```mermaid
-flowchart LR
-    U(("You")) <--> MT["Tutor · main thread<br/>diagnostic · hint ladder<br/>quizzes · teach-back"]
-    MT --> SI["source-ingester<br/>files and URLs → Markdown"]
-    MT --> CP["curriculum-planner<br/>concept map · diagnostic · roadmap"]
-    MT --> TB["theory-builder<br/>theory.html · cheat sheets"]
-    MT --> PB["practice-builder<br/>tasks · tests · answer key"]
-    MT --> BI["bug-injector<br/>plants bugs in your code"]
-    MT --> FC["fact-checker<br/>audits lessons and notes"]
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/architecture-dark.svg">
+    <img alt="Architecture: the tutor talks to you in the main thread; six subagents do heavy work without dialogue" src=".github/assets/architecture-light.svg" width="100%">
+  </picture>
+</p>
 
 | Subagent | Runs | Job |
 |:--|:--|:--|
@@ -212,6 +202,8 @@ The theory block, workspace and file formats are adapted from Matt Pocock's [`te
 ```bash
 claude plugin validate --strict .
 ```
+
+README diagrams are generated: edit and run `python3 .github/assets/make_diagrams.py`.
 
 </details>
 

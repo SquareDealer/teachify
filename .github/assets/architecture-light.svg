@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="1200" height="470" role="img" aria-label="Architecture: the tutor talks to you; six subagents do heavy work without dialogue">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#B9AE9F"/></marker></defs>
+<rect width="1200" height="470" rx="18" fill="#FAF7F2"/>
+<circle cx="92" cy="235" r="40" fill="none" stroke="#1F1B16" stroke-width="1.6"/>
+<text x="92" y="241" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="19" font-weight="700" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="middle">You</text>
+<line x1="138" y1="235" x2="196" y2="235" stroke="#B9AE9F" stroke-width="1.8" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="204" y="105" width="300" height="260" rx="14" fill="#FFFFFF" stroke="#C2502E" stroke-width="1.6"/>
+<text x="228" y="145" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="24" font-weight="700" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">Tutor</text>
+<text x="228" y="167" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="400" font-style="normal" letter-spacing="0" fill="#C2502E" text-anchor="start">main thread · talks to you</text>
+<circle cx="234" cy="200" r="3" fill="#6B6359"/>
+<text x="248" y="205" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">diagnostic</text>
+<circle cx="234" cy="226" r="3" fill="#6B6359"/>
+<text x="248" y="231" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">hint ladder</text>
+<circle cx="234" cy="252" r="3" fill="#6B6359"/>
+<text x="248" y="257" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">Q&amp;A, quizzes, grading</text>
+<circle cx="234" cy="278" r="3" fill="#6B6359"/>
+<text x="248" y="283" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">bug-hunt debrief</text>
+<circle cx="234" cy="304" r="3" fill="#6B6359"/>
+<text x="248" y="309" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">teach-back</text>
+<circle cx="234" cy="330" r="3" fill="#6B6359"/>
+<text x="248" y="335" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">progress files</text>
+<text x="582" y="42" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="600" font-style="normal" letter-spacing="2" fill="#C2502E" text-anchor="start">SUBAGENTS · NO DIALOGUE</text>
+<rect x="578" y="58" width="584" height="366" rx="14" fill="#F3EDE3"/>
+<line x1="512" y1="235" x2="570" y2="235" stroke="#B9AE9F" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="596" y="76" width="266" height="96" rx="10" fill="#FFFFFF" stroke="#E4DDD2" stroke-width="1.2"/>
+<text x="614" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" font-weight="600" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">source-ingester</text>
+<text x="614" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" letter-spacing="0" fill="#6B6359" text-anchor="start">your files → Markdown</text>
+<rect x="614" y="144" width="75.6" height="18" rx="9" fill="none" stroke="#C2502E" stroke-width="1"/>
+<text x="651.8" y="157" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" font-style="normal" letter-spacing="0" fill="#C2502E" text-anchor="middle">parallel</text>
+<rect x="878" y="76" width="266" height="96" rx="10" fill="#FFFFFF" stroke="#E4DDD2" stroke-width="1.2"/>
+<text x="896" y="118" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" font-weight="600" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">curriculum-planner</text>
+<text x="896" y="142" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" letter-spacing="0" fill="#6B6359" text-anchor="start">map · diagnostic · roadmap</text>
+<rect x="596" y="188" width="266" height="96" rx="10" fill="#FFFFFF" stroke="#E4DDD2" stroke-width="1.2"/>
+<text x="614" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" font-weight="600" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">theory-builder</text>
+<text x="614" y="246" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" letter-spacing="0" fill="#6B6359" text-anchor="start">theory.html · cheat sheets</text>
+<rect x="614" y="256" width="75.6" height="18" rx="9" fill="none" stroke="#C2502E" stroke-width="1"/>
+<text x="651.8" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" font-style="normal" letter-spacing="0" fill="#C2502E" text-anchor="middle">parallel</text>
+<rect x="878" y="188" width="266" height="96" rx="10" fill="#FFFFFF" stroke="#E4DDD2" stroke-width="1.2"/>
+<text x="896" y="222" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" font-weight="600" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">practice-builder</text>
+<text x="896" y="246" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" letter-spacing="0" fill="#6B6359" text-anchor="start">tasks · tests · answer key</text>
+<rect x="896" y="256" width="75.6" height="18" rx="9" fill="none" stroke="#C2502E" stroke-width="1"/>
+<text x="933.8" y="269" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" font-style="normal" letter-spacing="0" fill="#C2502E" text-anchor="middle">parallel</text>
+<rect x="596" y="300" width="266" height="96" rx="10" fill="#FFFFFF" stroke="#E4DDD2" stroke-width="1.2"/>
+<text x="614" y="342" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" font-weight="600" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">bug-injector</text>
+<text x="614" y="366" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" letter-spacing="0" fill="#6B6359" text-anchor="start">plants bugs in your code</text>
+<rect x="878" y="300" width="266" height="96" rx="10" fill="#FFFFFF" stroke="#E4DDD2" stroke-width="1.2"/>
+<text x="896" y="334" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16.5" font-weight="600" font-style="normal" letter-spacing="0" fill="#1F1B16" text-anchor="start">fact-checker</text>
+<text x="896" y="358" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="400" font-style="normal" letter-spacing="0" fill="#6B6359" text-anchor="start">audits lessons and notes</text>
+<rect x="896" y="368" width="97.2" height="18" rx="9" fill="none" stroke="#C2502E" stroke-width="1"/>
+<text x="944.6" y="381" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" font-style="normal" letter-spacing="0" fill="#C2502E" text-anchor="middle">independent</text>
+</svg>
