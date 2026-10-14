@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="teachify — a tutor that makes you think">
+<rect width="1200" height="360" rx="18" fill="#11151B"/>
+<text x="72" y="168" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="104" font-weight="700" letter-spacing="-2" fill="#ECE7DF">teachify<tspan fill="#E88A63">.</tspan></text>
+<line x1="76" y1="200" x2="148" y2="200" stroke="#E88A63" stroke-width="3" stroke-linecap="round"/>
+<text x="74" y="244" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="26" font-style="italic" fill="#ECE7DF">A tutor that makes you think,</text>
+<text x="74" y="278" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="26" font-style="italic" fill="#ECE7DF">not one that thinks for you.</text>
+<text x="74" y="318" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#9A9389">backend · ML · a Claude Code plugin</text>
+<line x1="660" y1="70" x2="660" y2="300" stroke="#262C35" stroke-width="1"/>
+<rect x="716" y="218" width="96" height="44" rx="6" fill="#1A2029" stroke="#323A45" stroke-width="1.5"/>
+<text x="728" y="246" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#9A9389">1</text>
+<text x="716" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#9A9389">ask</text>
+<rect x="824" y="174" width="96" height="88" rx="6" fill="#1A2029" stroke="#323A45" stroke-width="1.5"/>
+<text x="836" y="202" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#9A9389">2</text>
+<text x="824" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#9A9389">concept</text>
+<rect x="932" y="130" width="96" height="132" rx="6" fill="#1A2029" stroke="#323A45" stroke-width="1.5"/>
+<text x="944" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#9A9389">3</text>
+<text x="932" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#9A9389">pseudocode</text>
+<rect x="1040" y="86" width="96" height="176" rx="6" fill="none" stroke="#E88A63" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="1052" y="114" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#E88A63">4</text>
+<text x="1040" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#9A9389">code*</text>
+<text x="716" y="320" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" fill="#9A9389" opacity="0.85">the hint ladder · *code only when you ask</text>
+</svg>
